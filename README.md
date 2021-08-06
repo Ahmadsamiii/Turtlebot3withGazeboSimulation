@@ -134,5 +134,137 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 
 
 
+     <!-->
+         sudo apt-get install ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro
+         
+         
+![image](https://user-images.githubusercontent.com/85820553/128557380-0bdc2b8b-da67-4704-a574-9a99b221ea76.png)
 
+
+![image](https://user-images.githubusercontent.com/85820553/128557412-b4e54858-b995-4b09-a0a4-0d2535ef8b5b.png)
+
+
+![image](https://user-images.githubusercontent.com/85820553/128557432-2e361d2d-86dd-49d0-8845-b45369cbf583.png)
+
+
+
+
+     <!-->
+         sudo apt-get install ros-melodic-compressed-image-transport ros-melodic-rqt*
+         
+         
+![image](https://user-images.githubusercontent.com/85820553/128557571-0de072c3-3ade-4d86-99b4-f1988660db55.png)
+
+
+
+![image](https://user-images.githubusercontent.com/85820553/128557599-f416dd40-a3bc-46f3-8e27-8b00b43bc3c6.png)
+
+
+
+![image](https://user-images.githubusercontent.com/85820553/128557613-e2daf10d-7b33-4af5-85a2-56ed95feecc0.png)
+
+
+
+
+     <!-->
+         sudo apt-get install ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
+         
+         
+![image](https://user-images.githubusercontent.com/85820553/128557730-8891baec-1ab6-438e-812c-22f62d2b44dc.png)
+
+
+![image](https://user-images.githubusercontent.com/85820553/128557749-b075c049-53c1-483d-8c11-da6e8ecb2f89.png)
+
+
+![image](https://user-images.githubusercontent.com/85820553/128557765-030e757f-6cae-44cc-a453-cf1a27b21d44.png)
+
+
+
+
+1.5 Install TurtleBot3 Packages by executing the following next commands:
+
+
+
+     <!-->
+         sudo apt-get install ros-melodic-dynamixel-sdk
+
+![image](https://user-images.githubusercontent.com/85820553/128557994-01771fad-a43c-4a5c-b3b0-a965beef62f5.png)
+
+
+
+     <!-->
+         sudo apt-get install ros-melodic-turtlebot3-msgs
+
+![image](https://user-images.githubusercontent.com/85820553/128558105-8a981a97-84bb-4eb4-945b-7b43321d2f85.png)
+
+
+     <!-->
+         sudo apt-get install ros-melodic-turtlebot3
+
+![image](https://user-images.githubusercontent.com/85820553/128558249-ca7cc35e-d4da-4ead-b132-34048bbc899b.png)
+
+
+
+
+![image](https://user-images.githubusercontent.com/85820553/128558282-2b35407b-39f5-4862-a9f7-e1ddec287b51.png)
+
+
+
+
+![image](https://user-images.githubusercontent.com/85820553/128558297-8aa36b36-8f0d-40af-9991-6baa97dd056e.png)
+
+
+
+         
+
+
+1.5 Set TurtleBot3 Model Name by executing the following next commands:
+
+
+
+In case of TurtleBot3 Burger:
+     <!-->
+         echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
+
+
+![image](https://user-images.githubusercontent.com/85820553/128558445-15befea0-ea1b-4b6f-8cd6-8da614c89994.png)
+
+
+
+
+In case of TurtleBot3 Waffle Pi
+
+     <!-->
+         echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
+
+![image](https://user-images.githubusercontent.com/85820553/128558613-703b80f4-86e8-49f3-a897-2ce146244893.png)
+
+
+
+
+1.6 Network Configuration:
+
+
+1.6.1 Connect PC to a WiFi device and find the assigned IP address with the command below:
+
+
+     <!-->
+         ifconfig
+
+![image](https://user-images.githubusercontent.com/85820553/128559191-745e86a0-366e-414b-bd05-eca98ebbfbf5.png)
+
+
+
+1.6.2 Connect PC to a WiFi device and find the assigned IP address with the command below:
+
+
+     <!-->
+         nano ~/.bashrc
+
+![image](https://user-images.githubusercontent.com/85820553/128559414-f3b76f62-9d0d-44fc-b1bb-76e5deaac302.png)
+
+
+
+1.6.3 Press Ctrl+END or Alt+/ to move the cursor to the end of line.
+Modify the address of localhost in the ROS_MASTER_URI and ROS_HOSTNAME with the IP address acquired from the above terminal window.
 
