@@ -1,4 +1,4 @@
-# Turtlebot3 with Gazebo simulation
+# Turtlebot3 with Gazebo Simulation
 
 ## Steps of Use Turtlebot3 with Gazebo simulation:
 
