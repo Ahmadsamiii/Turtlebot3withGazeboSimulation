@@ -76,4 +76,63 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 
 
    <!-->
-         bash ./install_ros_melodic.sh
+         sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy 
+         
+         
+         
+  ![image](https://user-images.githubusercontent.com/85820553/128547309-cdee36c9-fd55-4e83-b5d4-65e237a71673.png)
+  
+  
+  
+  ![image](https://user-images.githubusercontent.com/85820553/128547348-8a6e95cb-cf31-4986-92e8-8d48dc7e865e.png)
+  
+  
+  
+     <!-->
+         sudo apt-get install ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc 
+         
+         
+![image](https://user-images.githubusercontent.com/85820553/128547766-f326786d-471a-49c8-b02a-ebcb66a8101f.png)
+
+
+
+     <!-->
+         sudo apt-get install ros-melodic-rgbd-launch ros-melodic-depthimage-to-laserscan
+         
+         
+![image](https://user-images.githubusercontent.com/85820553/128547886-69eac8ae-e895-4053-aa8e-126c7ede7c43.png)
+  
+
+
+     <!-->
+         sudo apt-get install ros-melodic-rosserial-arduino ros-melodic-rosserial-python
+         
+![image](https://user-images.githubusercontent.com/85820553/128548013-0f81d390-3b30-48af-b5b0-7a3a139e794b.png)
+
+
+
+     <!-->
+         sudo apt-get install ros-melodic-rosserial-server ros-melodic-rosserial-client
+         
+![image](https://user-images.githubusercontent.com/85820553/128548083-131d15a8-af2c-4dd3-91d6-8b03a4d1fba9.png)
+
+
+
+
+     <!-->
+         sudo apt-get install ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server
+         
+![image](https://user-images.githubusercontent.com/85820553/128548443-7f9db29c-4b4b-4065-a210-bd419400053f.png)
+
+
+
+![image](https://user-images.githubusercontent.com/85820553/128548464-9ce14cab-cf76-4dd0-99e8-4c73eca55982.png)
+
+
+
+![image](https://user-images.githubusercontent.com/85820553/128548969-f62c8649-c09b-4d1f-83b6-d0c2dd80deff.png)
+
+
+
+
+
