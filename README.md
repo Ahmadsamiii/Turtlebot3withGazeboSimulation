@@ -1,6 +1,6 @@
-# Turtlebot3 with SLAM approach
+# Turtlebot3 with Gazebo simulation
 
-## Steps of Use Turtlebot3 with SLAM approach to create and save a map:
+## Steps of Use Turtlebot3 with Gazebo simulation:
 
 
 - **Step-1:** PC Setup steps
