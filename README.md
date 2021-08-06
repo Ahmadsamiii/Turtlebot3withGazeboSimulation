@@ -24,13 +24,16 @@
     1.3 Install Install ROS 1 on Remote PC by executing the following next commands:
             
             
-   <!-->
+ <!-->
+
          sudo apt install python-rosdep
+
+
 ![image](https://user-images.githubusercontent.com/85820553/128537254-a949b4ab-dbae-46e5-ba6c-6815afd4c8ba.png)
 
 
 
-   <!-->
+ <!-->
          sudo apt upgrade
          
 ![image](https://user-images.githubusercontent.com/85820553/128538608-0dd3e21e-1229-4871-961e-e5685343561e.png)
@@ -43,7 +46,7 @@
 
 
 
-   <!-->
+ <!-->
          wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_melodic.sh
 
 
@@ -51,14 +54,14 @@
 
 
 
-   <!-->
+ <!-->
          chmod 755 ./install_ros_melodic.sh 
          
          
 ![image](https://user-images.githubusercontent.com/85820553/128539078-858410b6-8943-4743-be09-4eb3c4057fdb.png)
 
 
-   <!-->
+ <!-->
          bash ./install_ros_melodic.sh
 
 
@@ -75,7 +78,7 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   1.4 Install Dependent ROS 1 Packages by executing the following next commands:
 
 
-   <!-->
+ <!-->
          sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy 
          
          
@@ -88,7 +91,7 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   
   
   
-     <!-->
+ <!-->
          sudo apt-get install ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc 
          
          
@@ -96,7 +99,7 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 
 
 
-     <!-->
+ <!-->
          sudo apt-get install ros-melodic-rgbd-launch ros-melodic-depthimage-to-laserscan
          
          
@@ -104,14 +107,14 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   
 
 
-     <!-->
+ <!-->
          sudo apt-get install ros-melodic-rosserial-arduino ros-melodic-rosserial-python
          
 ![image](https://user-images.githubusercontent.com/85820553/128548013-0f81d390-3b30-48af-b5b0-7a3a139e794b.png)
 
 
 
-     <!-->
+ <!-->
          sudo apt-get install ros-melodic-rosserial-server ros-melodic-rosserial-client
          
 ![image](https://user-images.githubusercontent.com/85820553/128548083-131d15a8-af2c-4dd3-91d6-8b03a4d1fba9.png)
@@ -119,7 +122,7 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 
 
 
-     <!-->
+ <!-->
          sudo apt-get install ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server
          
 ![image](https://user-images.githubusercontent.com/85820553/128548443-7f9db29c-4b4b-4065-a210-bd419400053f.png)
@@ -134,7 +137,7 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 
 
 
-     <!-->
+ <!-->
          sudo apt-get install ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro
          
          
@@ -149,7 +152,7 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 
 
 
-     <!-->
+ <!-->
          sudo apt-get install ros-melodic-compressed-image-transport ros-melodic-rqt*
          
          
@@ -166,7 +169,7 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 
 
 
-     <!-->
+ <!-->
          sudo apt-get install ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
          
          
@@ -185,20 +188,20 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 
 
 
-     <!-->
+ <!-->
          sudo apt-get install ros-melodic-dynamixel-sdk
 
 ![image](https://user-images.githubusercontent.com/85820553/128557994-01771fad-a43c-4a5c-b3b0-a965beef62f5.png)
 
 
 
-     <!-->
+ <!-->
          sudo apt-get install ros-melodic-turtlebot3-msgs
 
 ![image](https://user-images.githubusercontent.com/85820553/128558105-8a981a97-84bb-4eb4-945b-7b43321d2f85.png)
 
 
-     <!-->
+ <!-->
          sudo apt-get install ros-melodic-turtlebot3
 
 ![image](https://user-images.githubusercontent.com/85820553/128558249-ca7cc35e-d4da-4ead-b132-34048bbc899b.png)
@@ -223,7 +226,9 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
 
 
 In case of TurtleBot3 Burger:
-     <!-->
+
+
+ <!-->
          echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
 
 
@@ -234,7 +239,7 @@ In case of TurtleBot3 Burger:
 
 In case of TurtleBot3 Waffle Pi
 
-     <!-->
+ <!-->
          echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
 
 ![image](https://user-images.githubusercontent.com/85820553/128558613-703b80f4-86e8-49f3-a897-2ce146244893.png)
@@ -248,7 +253,7 @@ In case of TurtleBot3 Waffle Pi
 1.6.1 Connect PC to a WiFi device and find the assigned IP address with the command below:
 
 
-     <!-->
+ <!-->
          ifconfig
 
 ![image](https://user-images.githubusercontent.com/85820553/128559191-745e86a0-366e-414b-bd05-eca98ebbfbf5.png)
@@ -258,7 +263,7 @@ In case of TurtleBot3 Waffle Pi
 1.6.2 Connect PC to a WiFi device and find the assigned IP address with the command below:
 
 
-     <!-->
+ <!-->
          nano ~/.bashrc
 
 ![image](https://user-images.githubusercontent.com/85820553/128559414-f3b76f62-9d0d-44fc-b1bb-76e5deaac302.png)
@@ -267,4 +272,182 @@ In case of TurtleBot3 Waffle Pi
 
 1.6.3 Press Ctrl+END or Alt+/ to move the cursor to the end of line.
 Modify the address of localhost in the ROS_MASTER_URI and ROS_HOSTNAME with the IP address acquired from the above terminal window.
+
+
+![image](https://user-images.githubusercontent.com/85820553/128561730-0509d6fc-e212-48d9-b67f-5c1cda0507af.png)
+
+
+
+![image](https://user-images.githubusercontent.com/85820553/128561866-82944dc9-ac02-409c-bdc2-348237214505.png)
+
+
+
+
+1.6.4 Source the bashrc with below command:
+
+
+ <!-->
+         source ~/.bashrc
+
+![image](https://user-images.githubusercontent.com/85820553/128562302-97550bf5-b526-4cb7-a60d-b728ab2fce5c.png)
+
+
+
+
+- **Step-2:** Gazebo Simulation
+
+   2.1 Install Simulation Package:
+            
+
+
+
+ <!-->
+         cd ~/catkin_ws/src/
+
+![image](https://user-images.githubusercontent.com/85820553/128562554-3d96564c-8353-433e-8bbd-8e3915358807.png)
+
+
+
+ <!-->
+         git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+
+![image](https://user-images.githubusercontent.com/85820553/128562651-8af71d87-10a1-4045-b32f-179f167bcba5.png)
+
+
+
+ <!-->
+         cd ~/catkin_ws && catkin_make
+
+![image](https://user-images.githubusercontent.com/85820553/128562917-8b761006-39f3-4cfd-a299-503bbda8b516.png)
+
+
+![image](https://user-images.githubusercontent.com/85820553/128562940-22580cf5-2064-489d-896d-e8eea45950c1.png)
+
+
+![image](https://user-images.githubusercontent.com/85820553/128562973-3bbc0f42-1e85-47d7-b160-95c7b0101b75.png)
+
+
+![image](https://user-images.githubusercontent.com/85820553/128562991-fcda2fee-784f-4e01-a004-d45eb053e56e.png)
+
+
+
+![image](https://user-images.githubusercontent.com/85820553/128563010-2d2510b7-1c4e-4654-98c0-e7fc1ba362a3.png)
+
+
+
+
+
+
+
+
+   2.1 Launch Simulation World:
+   
+   
+   - 1-Empty World:
+
+
+
+
+ <!-->
+         export TURTLEBOT3_MODEL=burger
+
+![image](https://user-images.githubusercontent.com/85820553/128563208-927c5140-6ead-4d90-b82b-c2c1f2b67aa8.png)
+
+
+
+
+
+
+ <!-->
+         roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+         
+         
+         
+
+![image](https://user-images.githubusercontent.com/85820553/128565489-864e14c2-0dc8-4b5b-9177-75a9dd73b98b.png)
+
+
+
+![image](https://user-images.githubusercontent.com/85820553/128567064-6837ed19-418f-4d45-b725-f701070686b8.png)
+
+
+
+
+
+
+
+
+
+
+   - 2-TurtleBot3 World:
+
+
+
+
+ <!-->
+         export TURTLEBOT3_MODEL=waffle
+
+
+![image](https://user-images.githubusercontent.com/85820553/128567355-c127110d-52ab-4d48-b1a3-54d274c335c9.png)
+
+
+
+
+
+ <!-->
+         roslaunch turtlebot3_gazebo turtlebot3_world.launch
+
+
+
+![image](https://user-images.githubusercontent.com/85820553/128567587-5ed39462-00cf-4267-93a8-22533dd220b6.png)
+
+
+
+![image](https://user-images.githubusercontent.com/85820553/128567559-e4bbcf72-f98b-4716-b055-cfea49493cf2.png)
+
+
+
+
+
+
+   - 3-TurtleBot3 House:
+
+
+
+
+ <!-->
+         export TURTLEBOT3_MODEL=waffle_pi
+
+
+![image](https://user-images.githubusercontent.com/85820553/128567355-c127110d-52ab-4d48-b1a3-54d274c335c9.png)
+
+
+
+
+
+ <!-->
+         roslaunch turtlebot3_gazebo turtlebot3_house.launch
+
+
+![image](https://user-images.githubusercontent.com/85820553/128567936-987ddc47-8858-465d-a9c9-0d32adb734a7.png)
+
+
+
+![image](https://user-images.githubusercontent.com/85820553/128568034-281d5239-a0e3-41dd-888a-b1722affbe63.png)
+
+
+
+
+
+   2.2 Operate TurtleBot3:
+
+
+In order to teleoperate the TurtleBot3 with the keyboard, launch the teleoperation node with below command in a new terminal window:
+
+ <!-->
+         roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+
+
+![image](https://user-images.githubusercontent.com/85820553/128568447-aa11fa2d-d071-4da6-9c48-7b212bf53cfb.png)
+
 
